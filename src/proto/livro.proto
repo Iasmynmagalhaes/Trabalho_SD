@@ -1,0 +1,15 @@
+syntax = "proto2";
+
+message Livro {
+    required int32 id = 1;
+    required string titulo = 2;
+    required string autor = 3;
+    required int32 ano = 4;
+    required string editora = 5;
+    required string genero = 6;
+}
+message Livros {
+    repeated Livro livros = 1;
+}
+
+

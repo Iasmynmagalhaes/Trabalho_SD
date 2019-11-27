@@ -1,0 +1,14 @@
+syntax = "proto2";
+
+message Message {
+
+	required int32 type = 1;
+
+	required int32 id = 2;
+
+	required string objReference = 3;
+
+	required string methodId = 4;
+
+	required bytes arguments = 5;
+}
